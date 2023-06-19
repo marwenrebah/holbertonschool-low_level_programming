@@ -5,10 +5,21 @@
  */
 int main(void)
 {
-char x;
-for (x = 'A' ; x <= 'Z' ; x++)
-putchar(x);
+char x, c;
+x = 'a';
+c = 'A';
+while (x <= 'z')
+{
+	putchar(x);
+	x++;
+}
+while (c <= 'Z')
+{
+	putchar(c);
+	c++;
+}
 putchar('\n');
 return (0);
 }
+
 
