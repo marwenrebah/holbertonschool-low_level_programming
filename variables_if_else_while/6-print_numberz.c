@@ -9,8 +9,8 @@ int x;
 x = 48;
 while (x <= 57)
 {
-putchar (x);
-putchar x++:
+putchar(x);
+x++;
 }
 putchar('\n');
 return (0);
