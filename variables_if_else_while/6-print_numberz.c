@@ -7,15 +7,10 @@ int main(void)
 {
 int x;
 x = 48;
-for (x < 58)
+while (x <= 57)
 {
-putchar(x);
-x++;
-if (x < 57)
-{
-putchar(44);
-putchar(32);
-}
+putchar (x);
+putchar x++:
 }
 putchar('\n');
 return (0);
