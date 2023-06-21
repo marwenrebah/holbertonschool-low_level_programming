@@ -6,9 +6,12 @@
 int main(void)
 {
 	int i;
-	char ch;
+	char ch = "_putchar";
 
-
-
-	return (0);
+for (i = 0; ch[i] != '\0'; i++)
+{
+	putchar(ch[i]);
+}
+putchar('\n');
+return (0);
 }
