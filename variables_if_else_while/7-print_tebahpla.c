@@ -5,9 +5,13 @@
  */
 int main(void)
 {
-int x;
-for (x = 122; x > = 97 ; x--)
-putchar(x);
+char x;
+x = 'z';
+while (x >= 'a')
+{
+	putchar(x);
+	x--;
+}
 putchar('\n');
 return (0);
 }
