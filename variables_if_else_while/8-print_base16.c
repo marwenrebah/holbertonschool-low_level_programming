@@ -5,16 +5,15 @@
  */
 int main(void)
 {
-char x, i ;
-
+char x, i;
 x = '0';
-i = 'A';
+i = 'a';
 while (x <= '9')
 {
 	putchar(x);
 	x++;
 }
-while (i <= 'F')
+while (i <= 'f')
 {
 	putchar(i);
 	i++;
