@@ -8,7 +8,7 @@ char *string_toupper(char *ch)
 int i = 0;
 while (*(ch + i) != '\0')
 {
-if (*(h + i) >= 'a' && *(ch + i) <= 'z')
+if (*(ch + i) >= 'a' && *(ch + i) <= 'z')
 	*(ch + i) -= 32;
 i++;
 }
