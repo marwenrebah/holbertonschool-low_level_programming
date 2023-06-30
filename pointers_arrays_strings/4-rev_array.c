@@ -1,5 +1,5 @@
 /**
- * reverse_array - reverse a given 
+ * reverse_array - reverse a given
  * @a: the array
  * @n: its size
  */
