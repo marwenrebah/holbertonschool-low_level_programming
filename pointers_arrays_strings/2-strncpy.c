@@ -4,8 +4,8 @@
  * _strncpy - copies a string
  *@dest: first one
  *@src: second one
- *@n: n
- * Return: Always 0.
+ *@n: number of characters
+ * Return: copied to
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -15,11 +15,13 @@ if (dest == NULL)
 {
 return (NULL);
 }
+char *ptr = dest;
 while (*src && n--)
 {
 *dest = *src;
 dest++;
 src++;
 }
-return (dest);
+*dest = '\0';
+return (ptr);
 }
