@@ -11,7 +11,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 char *index;
 index = dest;
-if (dust == NULL)
+if (dest == NULL)
 {
 return (NULL);
 }
@@ -21,5 +21,5 @@ while (*src && n--)
 dest++;
 src++;
 }
-return (index);
+return (dest);
 }
