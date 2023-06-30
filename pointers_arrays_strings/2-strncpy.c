@@ -20,21 +20,26 @@ return (len);
  *@dest: first one
  *@src: second one
  *@n: number of characters
- * Return: char
+ * Return: copied to
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-char *ptr;
-ptr = dest;
-if (dest == NULL)
+int i = 0, j = 0;
+while (j < n)
 {
-return (NULL);
+*(dest + i) = *(src + j);
+if (*(src + j) == '\0')
+j--;
+j++;
+i++;
 }
-while (*src && n--)
+if (*(src + i) == '\0')
 {
-*dest = *src;
-dest++;
-src++;
+while (i < _strlen(dest))
+{
+*(dest + i) = '\0';
+i++;
 }
-return (ptr);
+}
+return (dest);
 }
