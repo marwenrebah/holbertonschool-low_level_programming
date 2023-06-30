@@ -20,5 +20,5 @@ while (*src && n--)
 dest++;
 src++;
 }
-return (dest)
+return (dest);
 }
