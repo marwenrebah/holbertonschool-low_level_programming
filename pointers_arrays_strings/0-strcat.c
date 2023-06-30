@@ -13,7 +13,6 @@ int a = 0, b = 0;
 while (*(dest + a) != '\0')
 a++;
 while (*(src + b) != '\0')
-b++;
 {
 	*(dest + a) = *(src + b);
 	a++;
