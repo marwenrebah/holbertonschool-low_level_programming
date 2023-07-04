@@ -11,7 +11,7 @@ if (i % d == 0)
 return (0);
 if (d == i / 2)
 return (1);
-return (its_divisible(i, d + 1));
+return (is_divisible(i, d + 1));
 }
 
 /**
@@ -26,5 +26,5 @@ if (n <= 1)
 return (0);
 if (n >= 2 && n <= 3)
 return (1);
-return (its_divisible(n, d));
+return (is_divisible(n, d));
 }
