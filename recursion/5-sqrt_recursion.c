@@ -25,5 +25,5 @@ if (n < 0)
 return (-1);
 if (n == 1)
 return (1);
-return (find(n, i));
+return (find(n, b));
 }
