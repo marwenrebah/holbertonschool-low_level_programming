@@ -10,6 +10,7 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 int *p;
+p = array;
 if (!action || array)
 return;
 while (p != array + size)
