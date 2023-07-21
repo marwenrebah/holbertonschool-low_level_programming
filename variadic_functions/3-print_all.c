@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdarg.h>
-#include<sring.h>
+#include<string.h>
 #include"variadic_functions.h"
 #include<stdlib.h>
 /**
