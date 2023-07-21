@@ -11,7 +11,7 @@ void print_char(va_list args)
 {
 char c;
 c = va_arg(args, int);
-printf("%c, c");
+printf("%c", c);
 }
 /**
  * print_int - print an integer
