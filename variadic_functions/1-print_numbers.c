@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * print_numbers - print the given numbers seperated by a given sepertaor
+ * print_numbers - print the given numbers seperated by a given seperator
  * @separator: the given string to seperate numbers
  * @n: count of numbers
  */
@@ -17,5 +17,5 @@ x = va_arg(args, int);
 (separator != NULL && i != n - 1) ?
 printf("%d%s", x, separator) : printf("%d", x);
 }
-putchar("\n")
+putchar("\n");
 }
