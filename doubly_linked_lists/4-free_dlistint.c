@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include "lists.h"
 /**
  * free_dlistint - Adds a new node at the end of a dlistint_t list.
